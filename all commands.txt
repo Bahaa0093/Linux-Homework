@@ -1,0 +1,321 @@
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~
+$
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~
+$ pwd
+/c/Users/AB Bahaa
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~
+$ pwd
+/c/Users/AB Bahaa
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~
+$ ls
+'3D Objects'/         Downloads/         NTUSER.DAT{06cd0c8d-370c-11ef-b0f9-ac81124fb91c}.TxR.0.regtrans-ms                             NetHood@        SendTo@
+ AppData/             Favorites/         NTUSER.DAT{06cd0c8d-370c-11ef-b0f9-ac81124fb91c}.TxR.1.regtrans-ms                             OneDrive/      'Start Menu'@
+'Application Data'@   Links/             NTUSER.DAT{06cd0c8d-370c-11ef-b0f9-ac81124fb91c}.TxR.2.regtrans-ms                             Pictures/       Templates@
+ Contacts/           'Local Settings'@   NTUSER.DAT{06cd0c8d-370c-11ef-b0f9-ac81124fb91c}.TxR.blf                                       PrintHood@      Videos/
+ Cookies@             Music/             NTUSER.DAT{06cd0c8e-370c-11ef-b0f9-ac81124fb91c}.TM.blf                                        Recent@         ntuser.dat.LOG1
+ Desktop/            'My Documents'@     NTUSER.DAT{06cd0c8e-370c-11ef-b0f9-ac81124fb91c}.TMContainer00000000000000000001.regtrans-ms  'Saved Games'/   ntuser.dat.LOG2
+ Documents/           NTUSER.DAT         NTUSER.DAT{06cd0c8e-370c-11ef-b0f9-ac81124fb91c}.TMContainer00000000000000000002.regtrans-ms   Searches/       ntuser.ini
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~
+$ cd Desktop
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~/Desktop
+$ pwd
+/c/Users/AB Bahaa/Desktop
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~/Desktop
+$ ls
+'Adobe Photoshop 2023.lnk'*  'GitHub Desktop.lnk'*  'HAMID - Chrome.lnk'*   desktop.ini
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~/Desktop
+$ cd ..
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~
+$ pwd
+/c/Users/AB Bahaa
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~
+$ ls
+'3D Objects'/         Downloads/         NTUSER.DAT{06cd0c8d-370c-11ef-b0f9-ac81124fb91c}.TxR.0.regtrans-ms                             NetHood@        SendTo@
+ AppData/             Favorites/         NTUSER.DAT{06cd0c8d-370c-11ef-b0f9-ac81124fb91c}.TxR.1.regtrans-ms                             OneDrive/      'Start Menu'@
+'Application Data'@   Links/             NTUSER.DAT{06cd0c8d-370c-11ef-b0f9-ac81124fb91c}.TxR.2.regtrans-ms                             Pictures/       Templates@
+ Contacts/           'Local Settings'@   NTUSER.DAT{06cd0c8d-370c-11ef-b0f9-ac81124fb91c}.TxR.blf                                       PrintHood@      Videos/
+ Cookies@             Music/             NTUSER.DAT{06cd0c8e-370c-11ef-b0f9-ac81124fb91c}.TM.blf                                        Recent@         ntuser.dat.LOG1
+ Desktop/            'My Documents'@     NTUSER.DAT{06cd0c8e-370c-11ef-b0f9-ac81124fb91c}.TMContainer00000000000000000001.regtrans-ms  'Saved Games'/   ntuser.dat.LOG2
+ Documents/           NTUSER.DAT         NTUSER.DAT{06cd0c8e-370c-11ef-b0f9-ac81124fb91c}.TMContainer00000000000000000002.regtrans-ms   Searches/       ntuser.ini
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~
+$ cd Desktop
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~/Desktop
+$ Mkdir
+Mkdir: missing operand
+Try 'Mkdir --help' for more information.
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~/Desktop
+$ Mkdir  AB Bahaa
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~/Desktop
+$ pwd
+/c/Users/AB Bahaa/Desktop
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~/Desktop
+$ ls
+ AB/  'Adobe Photoshop 2023.lnk'*   Bahaa/  'GitHub Desktop.lnk'*  'HAMID - Chrome.lnk'*   desktop.ini
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~/Desktop
+$ cd AB Bahaa/
+bash: cd: too many arguments
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~/Desktop
+$ cd AB
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~/Desktop/AB
+$ touchnew.txt
+bash: touchnew.txt: command not found
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~/Desktop/AB
+$ ls
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~/Desktop/AB
+$ touch new. txt
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~/Desktop/AB
+$ ls
+new.  txt
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~/Desktop/AB
+$ mv new.txt ..
+mv: cannot stat 'new.txt': No such file or directory
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~/Desktop/AB
+$ ls
+new.  txt
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~/Desktop/AB
+$ cd ../
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~/Desktop
+$ ls
+ AB/  'Adobe Photoshop 2023.lnk'*   Bahaa/  'GitHub Desktop.lnk'*  'HAMID - Chrome.lnk'*   desktop.ini
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~/Desktop
+$ pdw
+bash: pdw: command not found
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~/Desktop
+$ ls
+ AB/  'Adobe Photoshop 2023.lnk'*   Bahaa/  'GitHub Desktop.lnk'*  'HAMID - Chrome.lnk'*   desktop.ini
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~/Desktop
+$ cd AB
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~/Desktop/AB
+$ ls
+new.  txt
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~/Desktop/AB
+$ mv new.  txt ..
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~/Desktop/AB
+$ ls
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~/Desktop/AB
+$ cd ..
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~/Desktop
+$ ls
+ AB/  'Adobe Photoshop 2023.lnk'*   Bahaa/  'GitHub Desktop.lnk'*  'HAMID - Chrome.lnk'*   desktop.ini   new.   txt
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~/Desktop
+$ cp new.  txt ./AB/
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~/Desktop
+$ ls
+ AB/  'Adobe Photoshop 2023.lnk'*   Bahaa/  'GitHub Desktop.lnk'*  'HAMID - Chrome.lnk'*   desktop.ini   new.   txt
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~/Desktop
+$ cd AB
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~/Desktop/AB
+$ ls
+new.  txt
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~/Desktop/AB
+$ rm -rf new.  txt
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~/Desktop/AB
+$ ls
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~/Desktop/AB
+$ Mkdir ZIA
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~/Desktop/AB
+$ ls
+ZIA/
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~/Desktop/AB
+$ rmdir ZIA
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~/Desktop/AB
+$ ls
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~/Desktop/AB
+$ cd ~
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~
+$ pwd
+/c/Users/AB Bahaa
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~
+$ ls
+'3D Objects'/         Downloads/         NTUSER.DAT{06cd0c8d-370c-11ef-b0f9-ac81124fb91c}.TxR.0.regtrans-ms                             NetHood@        SendTo@
+ AppData/             Favorites/         NTUSER.DAT{06cd0c8d-370c-11ef-b0f9-ac81124fb91c}.TxR.1.regtrans-ms                             OneDrive/      'Start Menu'@
+'Application Data'@   Links/             NTUSER.DAT{06cd0c8d-370c-11ef-b0f9-ac81124fb91c}.TxR.2.regtrans-ms                             Pictures/       Templates@
+ Contacts/           'Local Settings'@   NTUSER.DAT{06cd0c8d-370c-11ef-b0f9-ac81124fb91c}.TxR.blf                                       PrintHood@      Videos/
+ Cookies@             Music/             NTUSER.DAT{06cd0c8e-370c-11ef-b0f9-ac81124fb91c}.TM.blf                                        Recent@         ntuser.dat.LOG1
+ Desktop/            'My Documents'@     NTUSER.DAT{06cd0c8e-370c-11ef-b0f9-ac81124fb91c}.TMContainer00000000000000000001.regtrans-ms  'Saved Games'/   ntuser.dat.LOG2
+ Documents/           NTUSER.DAT         NTUSER.DAT{06cd0c8e-370c-11ef-b0f9-ac81124fb91c}.TMContainer00000000000000000002.regtrans-ms   Searches/       ntuser.ini
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~
+$ cd c
+bash: cd: c: No such file or directory
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~
+$ cd Do
+Documents/ Downloads/
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~
+$ cd Do
+Documents/ Downloads/
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~
+$ ls
+'3D Objects'/         Downloads/         NTUSER.DAT{06cd0c8d-370c-11ef-b0f9-ac81124fb91c}.TxR.0.regtrans-ms                             NetHood@        SendTo@
+ AppData/             Favorites/         NTUSER.DAT{06cd0c8d-370c-11ef-b0f9-ac81124fb91c}.TxR.1.regtrans-ms                             OneDrive/      'Start Menu'@
+'Application Data'@   Links/             NTUSER.DAT{06cd0c8d-370c-11ef-b0f9-ac81124fb91c}.TxR.2.regtrans-ms                             Pictures/       Templates@
+ Contacts/           'Local Settings'@   NTUSER.DAT{06cd0c8d-370c-11ef-b0f9-ac81124fb91c}.TxR.blf                                       PrintHood@      Videos/
+ Cookies@             Music/             NTUSER.DAT{06cd0c8e-370c-11ef-b0f9-ac81124fb91c}.TM.blf                                        Recent@         ntuser.dat.LOG1
+ Desktop/            'My Documents'@     NTUSER.DAT{06cd0c8e-370c-11ef-b0f9-ac81124fb91c}.TMContainer00000000000000000001.regtrans-ms  'Saved Games'/   ntuser.dat.LOG2
+ Documents/           NTUSER.DAT         NTUSER.DAT{06cd0c8e-370c-11ef-b0f9-ac81124fb91c}.TMContainer00000000000000000002.regtrans-ms   Searches/       ntuser.ini
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~
+$ cd Documents/
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~/Documents
+$ ls
+ Adobe/   FeedbackHub/   GitHub/  'My Music'@  'My Pictures'@  'My Videos'@   desktop.ini
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~/Documents
+$ cd My\
+bash: cd: My : No such file or directory
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~/Documents
+$ ls
+ Adobe/   FeedbackHub/   GitHub/  'My Music'@  'My Pictures'@  'My Videos'@   desktop.ini
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~/Documents
+$ cd GitHub/
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~/Documents/GitHub
+$ ls
+desktop-tutorial/
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~/Documents/GitHub
+$ cd desktop-tutorial/
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~/Documents/GitHub/desktop-tutorial (main)
+$ mkdir Zia
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~/Documents/GitHub/desktop-tutorial (main)
+$ ls
+README.md  Zia/
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~/Documents/GitHub/desktop-tutorial (main)
+$ cd Zia/
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~/Documents/GitHub/desktop-tutorial/Zia (main)
+$ pwd
+/c/Users/AB Bahaa/Documents/GitHub/desktop-tutorial/Zia
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~/Documents/GitHub/desktop-tutorial/Zia (main)
+$ cd ..
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~/Documents/GitHub/desktop-tutorial (main)
+$ pwd
+/c/Users/AB Bahaa/Documents/GitHub/desktop-tutorial
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~/Documents/GitHub/desktop-tutorial (main)
+$ cd ..
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~/Documents/GitHub
+$ ls
+desktop-tutorial/
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~/Documents/GitHub
+$ cd desktop-tutorial/
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~/Documents/GitHub/desktop-tutorial (main)
+$ ls
+README.md  Zia/
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~/Documents/GitHub/desktop-tutorial (main)
+$ touch Abdul
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~/Documents/GitHub/desktop-tutorial (main)
+$ ls
+Abdul  README.md  Zia/
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~/Documents/GitHub/desktop-tutorial (main)
+$ rm-rf Abdul
+bash: rm-rf: command not found
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~/Documents/GitHub/desktop-tutorial (main)
+$ ls
+Abdul  README.md  Zia/
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~/Documents/GitHub/desktop-tutorial (main)
+$ rm -rf Abdul
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~/Documents/GitHub/desktop-tutorial (main)
+$ ls
+README.md  Zia/
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~/Documents/GitHub/desktop-tutorial (main)
+$ cd ..
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~/Documents/GitHub
+$ cd..
+bash: cd..: command not found
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~/Documents/GitHub
+$ cd ..
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~/Documents
+$ ls
+ Adobe/   FeedbackHub/   GitHub/  'My Music'@  'My Pictures'@  'My Videos'@   desktop.ini
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~/Documents
+$ cd ..
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 ~
+$ cd ..
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 /c/Users
+$ cd ..
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 /c
+$ cd ..
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 /
+$ pwd
+/
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 /
+$ cd ..
+
+AB Bahaa@DESKTOP-U7PS5M7 MINGW64 /
